@@ -22,6 +22,7 @@ body{
     width: 1000px;
     margin: 0 auto;
     float: none;
+    position: relative;
 }
 
 .logo{
@@ -37,10 +38,86 @@ body{
 .links{
     display: flex;
     align-items: center;
-    gap: 28px;
+    gap: 40px;
     color: #E8650A;
+    list-style: none;
 }
 
 .links a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+}
 
+.links a:active{
+    color: #E8650A;
+    border-bottom: 2px solid #E8650A;
+    padding-bottom: 2px;
+}
+
+nav.container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.book{
+    border-radius: 20px;
+    background-color: #E8650A;
+    padding: 8px 18px;
+}
+
+header{
+    height: 100px;
+}
+
+.banner .background{
+    position: relative;
+    height: 300px;
+    background-image:
+            linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+            url("../imgs/banner.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+    max-width: 650px;
+    padding: 0 20px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.3;
+    flex: 1;
+    text-align: center;
+}
+
+.description {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    flex: 1;
+    text-align: center;
+}
+
+.search .background{
+    position: relative;
+    height: 300px;
+    background-image:
+            linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+            url("../imgs/search.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
