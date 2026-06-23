@@ -64,7 +64,7 @@ a {
   align-items: center;
   gap: 10px;
   font-weight: 800;
-  color: var(--navy);
+  color: var(--slate);
 }
 
 .logo-mark {
@@ -73,17 +73,16 @@ a {
   display: grid;
   place-items: center;
   border-radius: 14px;
-  background: linear-gradient(135deg, var(--navy), var(--blue));
-  color: var(--white);
+  background: #E8650A;
+  color: white;
 }
 
 .menu {
   display: flex;
   gap: 18px;
   font-weight: 700;
-  color: var(--slate);
+  color: black
 }
-
 .menu a {
   padding: 8px 10px;
   border-radius: 999px;
@@ -139,7 +138,7 @@ a {
   padding: 8px 16px;
   border-radius: 999px;
   background: rgba(229,201,215,.18);
-  color: var(--pink);
+  color: #f19554;
   font-weight: 800;
   margin-bottom: 18px;
 }
@@ -169,7 +168,7 @@ a {
 }
 
 .btn-primary {
-  background: var(--pink);
+  background: #f99248;
   font-family:'Times New Roman', sans-serif;
   color: var(--navy);
 }
@@ -254,7 +253,7 @@ a {
 
 .card-image {
   min-height: 180px;
-  background: linear-gradient(135deg,var(--slate),var(--blue));
+  background: #f19554;
   display: flex;
   align-items: flex-end;
   padding: 20px;
@@ -320,12 +319,12 @@ p{
   padding: 60px 30px;
   text-align: center;
   border-radius: 30px;
-  background: linear-gradient(135deg,var(--navy),var(--slate));
+  background: #3c2101;
   color: white;
 }
 
 footer {
-  background: var(--navy);
+  background: #040200;
   color: #dce8f6;
   text-align: center;
   padding: 30px;
