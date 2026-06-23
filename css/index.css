@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 300ms;
 }
 
 body{
@@ -21,4 +22,25 @@ body{
     width: 1000px;
     margin: 0 auto;
     float: none;
+}
+
+.logo{
+    width: 75px;
+}
+
+.brand{
+    font-weight: bold;
+    color: #E8650A;
+    font-size: 50px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    color: #E8650A;
+}
+
+.links a{
+
 }
