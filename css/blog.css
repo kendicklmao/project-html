@@ -59,10 +59,10 @@ body{
 }
 
 .sidebar h3 {
-    border-bottom: 2px solid #007BFF;
+    border-bottom: 2px solid #E8650A;
     padding-bottom: 10px;
     margin-bottom: 15px;
-    color: #007BFF;
+    color: #E8650A;
 }
 
 .category-list {
@@ -81,7 +81,7 @@ body{
 }
 
 .category-list a:hover {
-    color: #007BFF;
+    color: #E8650A;
     padding-left: 5px;
 }
 
@@ -145,7 +145,7 @@ body{
 
 .btn-readmore {
     display: inline-block;
-    color: #007BFF;
+    color: #E8650A;
     text-decoration: none;
     font-weight: bold;
     font-size: 0.9rem;
@@ -162,16 +162,16 @@ body{
     display: inline-block;
     padding: 8px 16px;
     text-decoration: none;
-    color: #007BFF;
+    color: #E8650A;
     border: 1px solid #ddd;
     margin: 0 4px;
     border-radius: 4px;
 }
 
 .pagination a.active {
-    background-color: #007BFF;
+    background-color: #E8650A;
     color: white;
-    border: 1px solid #007BFF;
+    border: 1px solid #E8650A;
 }
 
 .pagination a:hover:not(.active) {
@@ -212,7 +212,7 @@ body{
 
 .newsletter-form button {
     padding: 12px 24px;
-    background-color: #007BFF;
+    background-color: #E8650A;
     color: white;
     border: none;
     border-radius: 0 4px 4px 0;
@@ -221,7 +221,7 @@ body{
 }
 
 .newsletter-form button:hover {
-    background-color: #0056b3;
+    background-color: #E8650A;
 }
 
 @media (max-width: 768px) {
