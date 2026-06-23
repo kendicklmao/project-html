@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- Nhúng file CSS chung đã gộp của nhóm bạn -->
+    <link rel="stylesheet" href="./css/contact.css">
+    <!-- Nhúng font Roboto Condensed từ Google Fonts để giống máy của cả nhóm -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- KHỐI 1: Banner Tiêu đề -->
+    <div class="container section">
+        <header class="ct-page-banner">
+            <div class="ct-banner-content">
+                <h1>Contact Us</h1>
+                <p>We would love to hear from you. Get in touch with our team.</p>
+            </div>
+        </header>
+    </div>
+
+    <!-- KHỐI 2: Nội dung chính (Thông tin, Chi nhánh & Form liên hệ) -->
+    <div class="container section">
+        <main class="ct-contact-grid">
+            
+            <!-- Cột trái: Thông tin địa chỉ & Danh sách chi nhánh -->
+            <div class="ct-contact-sidebar">
+                
+                <!-- Yêu cầu: Thông tin địa chỉ, số điện thoại, email -->
+                <section class="ct-info-section">
+                    <h2>Headquarters</h2>
+                    <p><strong>📍 Address:</strong> 123 Innovation Drive, Tech District, NY 10001</p>
+                    <p><strong>📞 Phone:</strong> +1 (555) 019-2834</p>
+                    <p><strong>✉️ Email:</strong> support@example.com</p>
+                </section>
+
+                <!-- Yêu cầu: Danh sách chi nhánh -->
+                <section class="ct-branches-section">
+                    <h2>Our Branches</h2>
+                    <div class="ct-branch-card">
+                        <h3>Downtown Office</h3>
+                        <p>📍 456 Main Street, Suite 100, Boston, MA</p>
+                        <p>📞 +1 (555) 014-7733</p>
+                    </div>
+                    <div class="ct-branch-card">
+                        <h3>West Coast Hub</h3>
+                        <p>📍 789 Ocean Blvd, San Francisco, CA</p>
+                        <p>📞 +1 (555) 017-8822</p>
+                    </div>
+                </section>
+                
+            </div>
+
+            <!-- Cột phải: Form liên hệ -->
+            <!-- Yêu cầu: Form gồm Họ tên, Email, Số điện thoại, Chủ đề, Nội dung, Nút gửi -->
+            <section class="ct-form-section">
+                <h2>Send Us a Message</h2>
+                <form action="#" method="POST" class="ct-contact-form">
+                    <div class="ct-form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="John Doe" required>
+                    </div>
+
+                    <div class="ct-form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    </div>
+
+                    <div class="ct-form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required>
+                    </div>
+
+                    <div class="ct-form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="How can we help you?" required>
+                    </div>
+
+                    <div class="ct-form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="ct-submit-btn">Send Message</button>
+                </form>
+            </section>
+            
+        </main>
+    </div>
+
+    <!-- KHỐI 3: Khu vực bản đồ -->
+    <!-- Yêu cầu: Khu vực bản đồ dùng iframe -->
+    <div class="container section">
+        <section class="ct-map-section">
+            <iframe 
+                src="https://google.com" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+    </div>
+
+    <!-- KHỐI 4: Footer dùng chung -->
+    <!-- Yêu cầu: Sử dụng class footer chung của cả nhóm (shared-footer) -->
+    <div class="container section">
+        <footer class="shared-footer">
+            <p>&copy; 2026 Your Company Name. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
