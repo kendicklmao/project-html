@@ -24,9 +24,9 @@ body{
     float: none;
 }
 
-/* 1. Title Banner */
+
 .ct-page-banner {
-    background: linear-gradient(135deg, #007bff, #0056b3);
+    background: linear-gradient(135deg, #E8650A, #C15608);
     color: white;
     text-align: center;
     padding: 40px 20px;
@@ -45,7 +45,7 @@ body{
     opacity: 0.9;
 }
 
-/* Bố cục Grid 2 cột nằm gọn trong khối .container của nhóm */
+
 .ct-contact-grid {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
@@ -53,7 +53,7 @@ body{
     margin-bottom: 30px;
 }
 
-/* Sidebar bên trái (Thông tin + Chi nhánh) */
+
 .ct-contact-sidebar {
     display: flex;
     flex-direction: column;
@@ -69,11 +69,11 @@ body{
     border: 1px solid #e0e0e0;
 }
 
-/* Tiêu đề các khối trong trang contact */
+
 .ct-info-section h2,
 .ct-branches-section h2,
 .ct-form-section h2 {
-    color: #0056b3;
+    color: #E8650A;
     margin-bottom: 15px;
     font-size: 1.4rem;
     border-bottom: 2px solid #f0f0f0;
@@ -84,13 +84,13 @@ body{
     margin-bottom: 12px;
 }
 
-/* 5. Danh sách chi nhánh */
+
 .ct-branch-card {
     background: #fdfdfd;
     padding: 12px;
     border-radius: 4px;
     margin-bottom: 12px;
-    border-left: 4px solid #007bff;
+    border-left: 4px solid #E8650A;
     border-top: 1px solid #f0f0f0;
     border-right: 1px solid #f0f0f0;
     border-bottom: 1px solid #f0f0f0;
@@ -107,7 +107,7 @@ body{
     margin-bottom: 4px;
 }
 
-/* 3. Form liên hệ */
+
 .ct-contact-form {
     display: flex;
     flex-direction: column;
@@ -139,12 +139,12 @@ body{
 .ct-form-group input:focus, 
 .ct-form-group textarea:focus {
     outline: none;
-    border-color: #007bff;
+    border-color: #E8650A;
 }
 
-/* Nút gửi form */
+
 .ct-submit-btn {
-    background-color: #007bff;
+    background-color: #E8650A;
     color: white;
     padding: 12px;
     border: none;
@@ -158,7 +158,7 @@ body{
 }
 
 .ct-submit-btn:hover {
-    background-color: #0056b3;
+    background-color: #E8650A;
 }
 
 /* 4. Khu vực bản đồ (iframe) */
@@ -173,7 +173,7 @@ body{
     border-radius: 6px;
 }
 
-/* 6. Footer dùng chung (Định dạng cơ bản nếu nhóm chưa làm) */
+
 .shared-footer {
     background-color: #222;
     color: #fff;
