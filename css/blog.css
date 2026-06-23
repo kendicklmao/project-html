@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;
+    font-size: 14px;
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 1.5;
+    margin: 15px;
+}
+
+.section{
+    float: left;
+    width: 100%;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    float: none;
+}
