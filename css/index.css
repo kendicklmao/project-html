@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #fafafa;
+    background-color: #fbfbfb;
     font-size: 14px;
     font-family: "Be Vietnam Pro", sans-serif;
     line-height: 1.5;
@@ -119,17 +119,28 @@ header {
 
 .search {
     height: 700px;
-    background-image: url("../imgs/search.png");
-    -webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
-    mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
-    background-size: cover;
-    background-position: center;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+}
+
+.search::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("../imgs/search.png");
+    background-size: cover;
+    background-position: center;
+    -webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+    z-index: 0;
 }
 
 .search-bar {
+    position: relative;
+    z-index: 1;
     width: 90%;
     max-width: 780px;
     background: #fff;
@@ -138,6 +149,7 @@ header {
     display: flex;
     align-items: center;
     box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+    cursor: pointer;
 }
 
 .search-field {
@@ -207,13 +219,14 @@ header {
 }
 
 .special-place{
-    background-color: #fafafa;
+    background-color: #fbfbfb;
     height: 350px;
 }
 
 .special-place img{
     width: 100%;
     height: 150px;
+    border-radius: 20px;
 }
 
 .item-img{
@@ -230,12 +243,7 @@ header {
 }
 
 .item-des{
-    padding: 10px;
-}
-
-.special-place img{
-    width: 100%;
-    border-radius: 20px;
+    padding: 15px;
 }
 
 .item-des p{
@@ -306,17 +314,18 @@ header {
 }
 
 .advantage{
-    background-color: #fafafa;
+    background-color: #fbfbfb;
     height: 250px;
 }
 
 .cmt{
     background-color: #040200;
     height: 300px;
+    padding: 5px;
 }
 
 .cmt-content{
-    color: #fafafa;
+    color: #fbfbfb;
     background-color: #222424;
     box-sizing: border-box;
     float: left;
@@ -344,7 +353,7 @@ header {
 }
 
 .footer {
-    background-color: #fafafa;
+    background-color: #fbfbfb;
     color: #cacaca;
     padding-top: 40px;
 }
